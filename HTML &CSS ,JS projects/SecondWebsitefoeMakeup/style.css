@@ -1,0 +1,108 @@
+body{
+
+
+    background-image: -o-linear-gradient();
+    width: 98%;
+    height: 98vh;
+    background-size: cover;
+    color: antiquewhite;
+    
+}
+.h1{
+
+    color: aliceblue;
+}
+
+.header{
+
+    display: flex;
+    width: 90%;
+    margin: 20px;
+    cursor: pointer;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.header li{
+
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.header button{
+
+
+    color: hotpink;
+    font: bold;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100px;
+}
+.header li:hover{
+
+
+    background-color: blueviolet;
+    color: black;
+}
+
+.header button:hover {
+
+
+    background-color: blueviolet;
+    color: black;
+}
+
+.header input{
+
+width: 10%;
+height: 40px;
+border-radius: 50px;
+margin: 30px;
+text-align: center;
+color: hotpink;
+font: 900;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+background-color: blanchedalmond;
+
+}
+
+
+.body-section{
+justify-content: center;
+margin: 10% 0 0 30%;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.body-section button {
+    justify-content: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: blanchedalmond;
+    background-color: black;
+
+
+}
+.body-section button:hover {
+    justify-content: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: darkturquoise;
+    background-color: darksalmon;
+
+
+}
+
+.body-section h1{
+
+    color: white;
+}
